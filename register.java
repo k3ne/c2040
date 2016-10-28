@@ -23,7 +23,7 @@ public class register {
 			httpConnect.setRequestMethod("POST");
 			httpConnect.setRequestProperty("Content-Type", "application/json");
 			
-			String input = "\"token\":\"0b051b7208115ccaaa141dc3879ec45f\",\"github\":\"https://github.com/k3ne/c2040\""; 
+			String input = "\"token\":\"0b051b7208115ccaaa141dc3879ec45f\",\"github\":\"https://github.com/k3ne/c2040""; 
 			
 			System.out.println(input);
 			
