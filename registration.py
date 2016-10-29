@@ -11,8 +11,8 @@ def register():
 
     #Post Request to the website
     tokenReg = requests.post(url, data = dictionary)
-
-    print tokenReg
+    
+    
     return tokenReg
 
 
